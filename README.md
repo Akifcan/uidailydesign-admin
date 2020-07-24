@@ -1,2 +1,2 @@
 # uidailydesign-admin
-### live: https://akifcan.github.io/uidailydesign-admin/
+### live: [hero](https://akifcan.github.io/uidailydesign-admin/)

@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap');
+
+$color-blue: #58AEFF;
+$color-orange: #FF8158;
+$color-yellow: #FFB658;
+$color-purple: #B058FF;
+$color-black: #242531;
+$color-grey: #979797;
+$color-pink: #E9527D;
+
+$font-mulish: 'Mulish', sans-serif;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: $font-mulish;
+}
+
+header{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em;
+}
+
+.nav-items{
+    list-style: none;
+}
+
+.nav-item{
+    color: black;
+    margin-left: 1.5em;
+}
+
+.nav-items, .right-side{
+    display: flex;
+}
+
+.avatar{
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+.active{
+    font-weight: bold;
+}
+
+.upgrade-button{
+    border: 2px solid $color-black;
+    padding-left: 1.8em;
+    padding-right: 1.8em;
+    border-radius: 1.5em;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
+
+.avatar{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: $color-pink;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-weight: bold;
+}
+
+.wrapper{
+    height: 90vh;
+    width: 90%;
+    gap: 1.5em;
+    padding-bottom: .5em;
+    margin: auto;
+    display: flex;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 2em;
+    background-color: $color-black;
+    padding: 1.3em;
+    flex: 1;
+    width: 100%;
+}
+
+.aside-items{
+    list-style: none;
+}
+
+.aside-item{
+    display: flex;
+    align-items: center;
+    line-height: 2.5em;
+    color: white;
+}
+
+.aside-title{
+    color: #75757D;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: .5em;
+}
+
+.blue{
+    background-color: $color-blue;
+}
+
+.yellow{
+    background-color: $color-yellow;
+}
+
+.orange{
+    background-color: $color-orange;
+}
+
+.pink{
+    background-color: $color-pink;
+}
+
+.purple{
+    background-color: $color-purple;
+}
+
+.teams{
+    padding: 1em;
+}
+
+.form-team{
+    border-radius: .8em;
+    color: white;
+    background-color: #3A3C53;
+    padding: 1.5em;
+}
+
+.form-team-text{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.team-button{
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    background-color: #fff;
+    border-radius: .8em;
+    border: none;
+    padding: 1em;
+}
+
+.main{
+    position: relative;
+    padding: 1.5em;
+    flex: 4;
+    width: 100%;
+}
+
+.menu{
+    margin-top: 1.5em;
+    text-align: center;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4, 13%);
+}
+
+.menu-color{
+    cursor: pointer;
+    border-radius: 1.4em;
+    display: grid;
+    place-items: center;
+    color: white;
+    height: 8em;
+    width: 100%;
+    span{
+        font-size: 3rem;
+        font-weight: 900;
+    }
+}
+
+.add{
+    border: 1px solid $color-black;
+    color: black;
+}
+
+.menu-text{
+    margin-top: .5em;
+}
+
+.footer{
+    width: 20%;
+    position: absolute;
+    justify-content: space-evenly;
+    bottom: 0;
+    right: 0;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    a{
+        color: black;
+    }
+}

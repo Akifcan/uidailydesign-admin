@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+header {
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2em;
+}
+
+.nav-items {
+  list-style: none;
+}
+
+.nav-item {
+  color: black;
+  margin-left: 1.5em;
+}
+
+.nav-items, .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.avatar {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.upgrade-button {
+  border: 2px solid #242531;
+  padding-left: 1.8em;
+  padding-right: 1.8em;
+  border-radius: 1.5em;
+  font-weight: bold;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  background-color: #E9527D;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+}
+
+.wrapper {
+  height: 90vh;
+  width: 90%;
+  gap: 1.5em;
+  padding-bottom: .5em;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-radius: 2em;
+  background-color: #242531;
+  padding: 1.3em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  width: 100%;
+}
+
+.aside-items {
+  list-style: none;
+}
+
+.aside-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 2.5em;
+  color: white;
+}
+
+.aside-title {
+  color: #75757D;
+  text-transform: uppercase;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background-color: white;
+  margin-right: .5em;
+}
+
+.blue {
+  background-color: #58AEFF;
+}
+
+.yellow {
+  background-color: #FFB658;
+}
+
+.orange {
+  background-color: #FF8158;
+}
+
+.pink {
+  background-color: #E9527D;
+}
+
+.purple {
+  background-color: #B058FF;
+}
+
+.teams {
+  padding: 1em;
+}
+
+.form-team {
+  border-radius: .8em;
+  color: white;
+  background-color: #3A3C53;
+  padding: 1.5em;
+}
+
+.form-team-text {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.team-button {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  border-radius: .8em;
+  border: none;
+  padding: 1em;
+}
+
+.main {
+  position: relative;
+  padding: 1.5em;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+  width: 100%;
+}
+
+.menu {
+  margin-top: 1.5em;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+  gap: 2em;
+  -ms-grid-columns: (13%)[4];
+      grid-template-columns: repeat(4, 13%);
+}
+
+.menu-color {
+  cursor: pointer;
+  border-radius: 1.4em;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: white;
+  height: 8em;
+  width: 100%;
+}
+
+.menu-color span {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.add {
+  border: 1px solid #242531;
+  color: black;
+}
+
+.menu-text {
+  margin-top: .5em;
+}
+
+.footer {
+  width: 20%;
+  position: absolute;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer a {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */

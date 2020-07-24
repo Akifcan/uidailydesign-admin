@@ -4,4 +4,5 @@
 
 ### live: [here](https://akifcan.github.io/uidailydesign-admin/)
 ### source [uidesigndaily](https://uidesigndaily.com/posts/sketch-projects-page-project-management-plan-dashboard-day-1126)
-### video: 
+### video: [youtube] (https://www.youtube.com/watch?v=p7sbEiQouCs)
+ 
